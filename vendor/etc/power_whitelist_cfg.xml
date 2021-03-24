@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software and
+certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in any
+software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="5"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="20"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.sgame">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="25"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_WIFI_LOW_LATENCY Param1="1"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.ko">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.hyxd">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.netease.mrzh">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.epicgames.fortnite">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.maimiao.live.tv">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.cf">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgmhd">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.gameloft.android.ANMP.GloftA9HM">
+            <Activity name="Common">
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.pubgm">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.dialer">
+             <Activity name="com.android.incallui.InCallActivity">
+                 <PERF_RES_FPS_FBT_BHR_OPP Param1="15"/>
+             </Activity>
+        </Package>
+        <Package name="com.estrongs.android.pop.pro">
+            <Activity name="Common">
+                 <PERF_RES_IO_BLKDEV_READAHEAD Param1="512"/>
+             </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq">
+            <Activity name="Common">
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="80"/>
+                <PERF_RES_FPS_FPSGO_ADJ_LOADING Param1="1"/>
+                <PERF_RES_FPS_FPSGO_LLF_TH Param1="25"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.aweme">
+            <Activity name="Common">
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.live">
+            <Activity name="Common">
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="30"/>
+            </Activity>
+        </Package>
+        <Package name="com.mojang.minecraftpe">
+            <Activity name="Common">
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="20"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.speedmobile">
+            <Activity name="Common">
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.settings">
+            <Activity name="com.android.settings.SubSettings">
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="15"/>
+                <PERF_RES_DRAM_VCORE_MIN Param1="0"/>
+            </Activity>
+        </Package>
+        <!-- ifdef ODM_HQ_EDIT -->
+        <!-- Shaohua.Xu@ODM_HQ.AD.Performance, 2020/11/03,Add FPS parameters corresponding to the problem-->
+        <Package name="com.twitter.android">
+            <Activity name="Common">
+                <PERF_RES_SET_FPSGO Param1="1"/>
+                <PERF_RES_VIDEO_COLOR_CONVERT_MODE Param1="1"/>
+            </Activity>
+            <Activity name="com.twitter.android.search.SearchActivity">
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="60"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+            </Activity>
+            <Activity name="com.twitter.app.main.MainActivity">
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="60"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_SCHED_BOOST param1="1"/>
+                <PERF_RES_CPUFREQ_MIN_CLUSTER_0 Param1="1393000" />
+                <PERF_RES_CPUFREQ_MIN_CLUSTER_1 Param1="1367000" />
+            </Activity>
+        </Package>
+        <Package name="com.shopee.ph">
+            <Activity name="com.shopee.app.ui.home.HomeActivity">
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="60"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.facebook.katana">
+            <Activity name="com.facebook.katana.LoginActivity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="512"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.vending">
+            <Activity name="Common">
+                <PERF_RES_SET_FPSGO Param1="1"/>
+                <PERF_RES_VIDEO_COLOR_CONVERT_MODE Param1="1"/>
+            </Activity>
+            <Activity name="com.android.vending.AssetBrowserActivity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="512"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.whatsapp">
+            <Activity name="Common">
+                <PERF_RES_SET_FPSGO Param1="1"/>
+            </Activity>
+            <Activity name="com.whatsapp.Conversation">
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="512"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.lazada.android">
+            <Activity name="com.lazada.android.maintab.MainTabActivity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="512"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+            </Activity>
+        </Package>
+        <Package name="com.google.android.youtube">
+            <Activity name="com.google.android.apps.youtube.app.WatchWhileActivity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_90 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT_120 Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="512"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.opera.browser">
+            <Activity name="com.opera.android.BrowserActivity">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT  Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F  Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE  Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.iglite">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="20"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+             </Activity>
+        </Package>
+        <Package name="com.tencent.ig">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="20"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_FPS_FPSGO_MARGIN_MODE Param1="2"/>
+                <PERF_RES_FPS_FPSGO_MARGIN_MODE_DBNC_A Param1="9"/>
+                <PERF_RES_FPS_FPSGO_MARGIN_MODE_DBNC_B Param1="1"/>
+                <PERF_RES_TOUCH_CHANGE_RATE Param1="1"/>
+                <PERF_RES_FPS_GBE1_ENABLE Param1="1"/>
+                <PERF_RES_FPS_GBE2_ENABLE Param1="1"/>
+                <PERF_RES_FPS_GBE2_TIMER2_MS Param1="3000"/>
+                <PERF_RES_FPS_GBE2_MAX_BOOST_CNT Param1="4"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.igce">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgtw">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgvn">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgth">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgid">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgsam">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.kgvntest">
+            <Activity name="Common">
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.garena.game.codm">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="15"/>
+                <PERF_RES_GPU_GED_DVFS_LOADING_MODE Param1="1"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="110"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="50"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="6"/>
+                <PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN Param1="50"/>
+                <PERF_RES_GPU_GED_LOADING_BASE_DVFS_STEP Param1="16"/>
+                <PERF_RES_FPS_FSTB_JUMP_CHECK_NUM Param1="30"/>
+            </Activity>
+        </Package>
+        <Package name="com.mobile.legends">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="10"/>
+                <PERF_RES_GPU_GED_DVFS_LOADING_MODE Param1="1"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="110"/>
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="50"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="50"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="6"/>
+                <PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN Param1="50"/>
+                <PERF_RES_GPU_GED_LOADING_BASE_DVFS_STEP Param1="16"/>
+                <PERF_RES_FPS_FSTB_JUMP_CHECK_NUM Param1="30"/>
+            </Activity>
+        </Package>
+        <!-- endif /*ODM_HQ_EDIT*/ -->
+        <Package name="com.kiloo.subwaysurf">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="15"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_TOUCH_CHANGE_RATE Param1="1"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+             </Activity>
+        </Package>
+        <Package name="com.ngame.allstar.eu">
+            <Activity name="Common">
+                <PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD Param1="10"/>
+                <PERF_RES_THERMAL_POLICY Param1="8"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_SCHED_BOOST_VALUE_TA Param1="20"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_TOUCH_CHANGE_RATE Param1="1"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+             </Activity>
+        </Package>
+		<Package name="com.ubercab.eats">
+            <Activity name="com.ubercab.eats.central.CentralV2Activity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="1024"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+		<Package name="com.waze">
+            <Activity name="com.waze.MainActivity">
+                <PERF_RES_FPS_FBT_SHORT_RESCUE_NS Param1="16666666"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="2048"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+		<Package name="com.facebook.orca">
+            <Activity name="com.facebook.messenger.neue.MainActivity">
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+                <PERF_RES_FPS_FBT_BHR_OPP Param1="10"/>
+                <PERF_RES_DRAM_CM_MGR Param1="1"/>
+                <PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_PERCENT Param1="100"/>
+                <PERF_RES_FPS_FBT_RESCUE_F Param1="100"/>
+                <PERF_RES_FPS_FBT_ULTRA_RESCUE Param1="1"/>
+                <PERF_RES_GPU_POWER_POLICY Param1="1"/>
+                <PERF_RES_GPU_GED_MARGIN_MODE Param1="130"/>
+                <PERF_RES_IO_BLKDEV_READHEAD Param1="1024"/>
+                <PERF_RES_FPS_FBT_KMIN Param1="10"/>
+                <PERF_RES_FPS_FBT_FLOOR_BOUND Param1="1"/>
+                <PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST Param1="50"/>
+                <PERF_RES_NET_NETD_BOOST_UID Param1="1"/>
+                <PERF_RES_NET_MD_WEAK_SIG_OPT Param1="1"/>
+            </Activity>
+        </Package>
+    </PerfService>
+</WHITELIST>

@@ -1,0 +1,5 @@
+service neuralnetworks_hal_service_gpunn /vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn
+# Zhaoliang_Shi@ODM_WT.BSP.Fp.Config, 2020/8/7, bug:2793332 solution VTS
+    class hal
+    user system
+    group system
